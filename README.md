@@ -17,29 +17,29 @@ All Perl scripts require the [sloan.pm](https://github.com/dbsloan/perl_modules)
 
 - This scripts calculates divergence between pairs of sequences (repeat copies) in a multi-fasta alignment. It was called as follows. Output was then manually updated to exclude MNVs (dinucleotide subs and microinversions) and unalignable regions including SNVs right at indel boundaries.
 
-`perl  pairwise_divergence_msa.pl  repeat1.aligned.fas`
+- `perl  pairwise_divergence_msa.pl  repeat1.aligned.fas`
 
-`perl  pairwise_divergence_msa.pl  repeat2.aligned.fas`
+- `perl  pairwise_divergence_msa.pl  repeat2.aligned.fas`
 
 #### extract_PI_positions.pl
 
 - This script extracts pair of sites for which two repeat copies within the numt share an allele that is different than the mitogenome and the other repeat copy. It was called as follows.
 
-`perl  extract_PI_positions.pl  repeat1.aligned.fas`
+- `perl  extract_PI_positions.pl  repeat1.aligned.fas`
 
-`perl  extract_PI_positions.pl  repeat2.aligned.fas`
+- `perl  extract_PI_positions.pl  repeat2.aligned.fas`
 
 #### pairwise_dist.pl
 
 - This script calculates pairwise nucleotide sequence identity between two sequences in a fasta alignment. It ignores indel gaps. It was run on a pairwise alignment between the numt and a manually constructed concatenation of corresponding regions in the Col-0 mitogenome after removal of structural variants and multinucleotide variants.
 
-`perl  pairwise_dist.pl  alignment_emboss_stretcher_noStructOrMNVs.fas`
+- `perl  pairwise_dist.pl  alignment_emboss_stretcher_noStructOrMNVs.fas`
 
 #### summarize_pairwise_variants.pl
 
 - This script provides a list of all variants between two sequences in a pairwise fasta alignment. It was called on multiple different EMBOSS Stretcher alignment files as follows. Where necessary for counting purposes, variants spanning multiple alignments positions (MNVs, indels, and complex structural variants) were then manually collapsed.
 
-`perl  summarize_pairwise_variants.pl  input_fasta_file`
+- `perl  summarize_pairwise_variants.pl  input_fasta_file`
 
 ## Sequence data and alignments
 
