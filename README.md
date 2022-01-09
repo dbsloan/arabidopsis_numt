@@ -43,7 +43,7 @@ All Perl scripts require the [sloan.pm](https://github.com/dbsloan/perl_modules)
 
 ## Sequence data and alignments
 
-The `sequences_and_alignments` directory contains data and input files used with the above scripts
+The `sequences_and_alignments` directory contains data and input files used with the above scripts.
 
 ### Repeat alignments
 
@@ -53,7 +53,7 @@ The `sequences_and_alignments` directory contains data and input files used with
 
 ### Pairwise EMBOSS Stretcher alignments
 
-Pairwise alignments in fasta format generated with EMBOSS Stretcher
+Pairwise alignments in fasta format generated with [EMBOSS Stretcher](https://www.ebi.ac.uk/Tools/psa/emboss_stretcher/)
 
 #### Col-CEN-denovo_vs_Col-XJTU-denovo.fas
 
@@ -85,5 +85,5 @@ The numt sequences extracted from our de novo assemblies.
 
 #### numt_Col-XJTU.fas and numt_Col-XJTU_withFlanking.fas
 
-- Each file contains the 641kb numt sequence obtained from a de novo assembly of the HiFi reads from the Col-CEN project. The "withFlanking" version contains 10kb if flanking sequence on either side of the numt.
+- Each file contains the 641kb numt sequence obtained from a de novo assembly of the HiFi reads from the Col-XJTU project. The "withFlanking" version contains 10kb if flanking sequence on either side of the numt.
 
